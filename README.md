@@ -88,7 +88,7 @@ The age column was transformed into categorical age groups to better capture age
 2 for elderly (age ≥ 60)
 ## Data Analysis
 ### the correlation between numeric features
-![alt text](image-1.png)
+https://github.com/dusengemedia/Stroke-prediction/blob/main/image-1.png
 ### the relationship between age and glucose level
 ![alt text](image.png)
 ### Age distribution
