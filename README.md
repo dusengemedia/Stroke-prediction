@@ -1,8 +1,5 @@
-HEAD
-# Stroke-prediction
-Predicting strokes using ensemble models
-# Stroke Prediction
 
+# Stroke Prediction using ensemble models
 
 ## Introduction
 Stroke is one of the leading causes of death, disability and dementia worldwide.1 The annual global mortality rate for stroke is 84.7 deaths per 100,000 people.2 According to estimates from the global burden of disease and injuries study, the global prevalence of stroke was 93.8 million and its incidence was 11.9 million in the year 2021 alone.3 People who have stroke experience a wide range of disabilities, including paralysis, sudden falls, speech difficulties, cognitive impairment and dementia.
