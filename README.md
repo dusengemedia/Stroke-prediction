@@ -90,21 +90,21 @@ The age column was transformed into categorical age groups to better capture age
 ### the correlation between numeric features
 ![Model](https://github.com/dusengemedia/Stroke-prediction/blob/main/images/image-1.png)
 ### the relationship between age and glucose level
-![alt text](image.png)
+![Model]([image.png](https://github.com/dusengemedia/Stroke-prediction/blob/main/images/image.png))
 ### Age distribution
-![alt text](image-2.png)
+![Model](https://github.com/dusengemedia/Stroke-prediction/blob/main/images/image-2.png)
 ### Gender distributiony
-![alt text](image-3.png)
+![Model](https://github.com/dusengemedia/Stroke-prediction/blob/main/images/image-3.png)
 ### patients had a stroke compared to those who didn’t have it 
-![alt text](image-4.png)
+![Model](https://github.com/dusengemedia/Stroke-prediction/blob/main/images/image-4.png)
 ### BMI distributed between stroke and non-stroke patients
-![alt text](image-5.png)
+![Model](https://github.com/dusengemedia/Stroke-prediction/blob/main/images/image-5.png)
 ### Is heart disease a strong indicator of stroke risk?
-![alt text](image-6.png)
+![Model](https://github.com/dusengemedia/Stroke-prediction/blob/main/images/image-6.png)
 ### Married people more likely to have a stroke than unmarried people
-![alt text](image-7.png)
+![Model](https://github.com/dusengemedia/Stroke-prediction/blob/main/images/image-7.png)
 ### the stroke rate among people who have both hypertension and heart disease
-![alt text](image-8.png)
+![Model](https://github.com/dusengemedia/Stroke-prediction/blob/main/images/image-8.png)
 
 ## Modeling
 To evaluate the performance of different classification models, the dataset was split into training and testing sets using an 80/20 ratio. This means that 80% of the data was used to train the models, while 20% was reserved for evaluating their performance on unseen data.
@@ -116,9 +116,9 @@ Random Forest is an ensemble learning method that builds multiple decision trees
 ## Performance Evaluation
 After training both models, their performance was evaluated using a confusion matrix. The confusion matrix shows how many predictions were correctly and incorrectly classified for each class.
 ### Logistic Regression
-![alt text](image-9.png)
+![Confusion Matrix](https://github.com/dusengemedia/Stroke-prediction/blob/main/images/image-9.png)
 ### Random Forest Classifier
-![alt text](image-10.png)
+![Confusion Matrix](https://github.com/dusengemedia/Stroke-prediction/blob/main/images/image-10.png)
 
 
 During model development, I faced the challenge of misclassification, primarily due to class imbalance—stroke cases were significantly underrepresented compared to non-stroke cases. To address this, I applied SMOTE (Synthetic Minority Oversampling Technique) to balance the training data and used feature standardization to ensure all input variables contributed equally to the model. The dataset was split into training and testing sets with stratification to preserve class distribution. I selected XGBoost for its ability to handle imbalanced data and used cross-validation to evaluate its stability and performance using F1-score.
@@ -126,4 +126,4 @@ During model development, I faced the challenge of misclassification, primarily 
 To further improve performance, I optimized the classification threshold based on the Precision-Recall curve, selecting a lower threshold to prioritize recall—critical in identifying stroke risk. After training the model and adjusting the threshold, I evaluated it using accuracy, precision, recall, F1 score, and ROC AUC. Finally, I visualized the confusion matrix to understand the types of errors the model was making, ensuring a more balanced and sensitive prediction, especially for the minority (stroke) class.
 
 ### XGBOOST Perfomance
-![alt text](image-11.png)
+![Confusion Matrix](https://github.com/dusengemedia/Stroke-prediction/blob/main/images/image-11.png)
